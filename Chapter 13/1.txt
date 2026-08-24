@@ -1,0 +1,5 @@
+Practice Exercises
+1. State the Big-O of: (a) printing every pair from an array, (b) checking if a number is even, (c)
+summing an array.
+2. Write two versions of 'find the maximum': one with a loop and one using sort() then taking the
+last element. Which has better complexity and why?

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#joke {
+    min-height: 60px;
+    font-size: 18px;
+}
+
+#status {
+    font-size: 14px;
+}
