@@ -1,0 +1,17 @@
+function reverseString(text) {
+    const stack = [];
+
+    for (const char of text) {
+        stack.push(char);
+    }
+
+    let reversed = "";
+
+    while (stack.length > 0) {
+        reversed += stack.pop();
+    }
+
+    return reversed;
+}
+
+console.log(reverseString("hello"));

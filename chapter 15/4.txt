@@ -1,0 +1,1 @@
+The early-exit swapped flag is useful because it can detect when an array is already sorted. During a pass, if no two elements are swapped, it means every adjacent pair is already in the correct order, so the algorithm can stop instead of continuing unnecessary passes. This improves bubble sort's best-case performance from O(n²) to O(n) for an already sorted array.
